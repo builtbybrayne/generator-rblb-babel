@@ -1,14 +1,13 @@
-# generator-nm-es6
-Yeoman generator for developing your own node modules in ES6.
+# generator-nm-babel
+Yeoman generator for developing your own node modules in ES6 with Babel transpilation. Based on [generator-npm-es6](https://github.com/sohamkamani/generator-nm-es6) by [sohamkamani](https://github.com/sohamkamani)
 - Uses [mocha](https://mochajs.org/) to run tests.
 - Uses [npm scripts](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/) for workflow automation.
-- Ready baked support for [TravisCI](https://travis-ci.org/) and [coveralls](https://coveralls.io/).
 
 ## Installation and usage
 
 - Install previous dependencies if you haven't already (`npm install -g yo mocha`).
-- Install the generator (`npm install -g generator-nm-es6`)
-- Run the generator (`yo nm-es6`)
+- Install the generator (`npm install -g generator-rblb-babel`)
+- Run the generator (`yo rblb-babel`)
 
 ## Development Workflow
 
@@ -17,12 +16,11 @@ the folder tree structure after running the generator and running `npm run build
 .  
 ├── .gitignore  
 ├── .jshintrc  
-├── .travis.yml  
 ├── README.md   
 ├── dist  
 │   └── index.js  
 ├── package.json  
-├── source  
+├── src  
 │   └── index.js  
 └── test  
     └── index.spec.js
@@ -35,7 +33,6 @@ the folder tree structure after running the generator and running `npm run build
 
 ### npm scripts
 - `npm test` - Run all tests and jshint. Also watches files for changes.
-- `npm run test:cover` - Run tests and generate code coverage information.
 - `npm run build` - Transpiles ES6 into build folder. Should be run before publishing the node module.
 
 ### source
@@ -54,4 +51,4 @@ This is the actual folder the node module is run from once it is packaged and pu
 
 ## License
 
-MIT © [sohamkamani](https://github.com/sohamkamani)
+MIT © [perchten](https://github.com/perchten)

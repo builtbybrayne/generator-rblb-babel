@@ -1,12 +1,12 @@
 {
-  "name": "generator-nm-es6",
+  "name": "generator-rblb-babel",
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js"
   },
-  "repository" : "sohamkamani/generator-nm-es6",
+  "repository" : "perchten/generator-rblb-babel",
   "version": "2.0.0",
-  "description": "Develop node modules in ES6 using babel",
+  "description": "Yeoman generator for babel-transpiled modules as I like them, based on sohamkamani/generator-nm-es6.",
   "files": [
     "app",
     "router"
@@ -24,6 +24,6 @@
     "underscore.string": "^3.2.2",
     "yeoman-generator": "^0.20.2"
   },
-  "author": "Soham Kamani <sohamkamani@gmail.com> (http://sohamkamani.com)",
+  "author": "Alastair Brayne <al@builtbybrayne.com> (http://builtbybrayne.com)",
   "license": "MIT"
 }

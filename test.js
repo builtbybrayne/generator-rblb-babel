@@ -23,11 +23,11 @@ describe('generator-nm-es6', function () {
     assert.file('.git');
   });
 
-  it('copies source and test folders with files', function(){
+  it('copies src and test folders with files', function(){
     assert.file([
-      'source',
+      'src',
       'test',
-      'source/index.js',
+      'src/index.js',
       'test/index.spec.js'
     ]);
   });
